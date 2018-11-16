@@ -1,0 +1,70 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+html{
+  background: aliceblue;
+  text-align: center;
+}
+h1{
+  margin-bottom: 0;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.head{
+  height: 190px;
+  font-family: 'Indie Flower', cursive;
+}
+#card{
+  margin-top: 20px;
+  height: 480px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/* MOBILE */
+@media only screen and (max-width: 768px){
+
+}
+@media (min-width: 769px) and (max-width: 1024px){
+  section{
+    width: 100%;
+  }
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

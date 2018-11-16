@@ -1,22 +1,25 @@
-# 📊 Week07 Bootcamp2018c Project: Simple API 2
+# PokéSearch
+Got to find them all! Find your favorite Pokémon using this API.
 
-### Goal: Display data returned from an api
+**Link to project:** https://admiring-cray-e04cdb.netlify.com/
 
-### How to submit your code for review:
+![alt tag](pic.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML5, CSS3, JavaScript, and Pokémon API.
+
+This project was written in JavaScript using the fetch method to access the Pokémon API. When a user enters the a pokémon name, the API returns a card displaying that pokémon. This project was designed using CSS3.
+
+## Lessons Learned:
+
+This project furthered my understanding of APIs.
+
+## Related Projects:
+Take a look at these projects that I have in my portfolio:
+
+**NASA Photo of the Day API:** https://gallant-pasteur-e1c256.netlify.com/
+
+**Music Database API:** https://zen-bose-c1b511.netlify.com/
+
+**Cat Facts API:** https://peaceful-joliot-b4ac23.netlify.com/
